@@ -1,4 +1,4 @@
-FROM phpunit/phpunit:6.0.6
+FROM phpunit/phpunit:7.4.0
 
 RUN apk add --no-cache mariadb-client php7-mysqli subversion wget
 
